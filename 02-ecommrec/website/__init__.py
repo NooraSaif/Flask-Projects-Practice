@@ -4,6 +4,9 @@ def create_app():
   app = Flask(__name__)
   app.config['SECRET_KEY'] = 'jwhe kwejkq wejqkje'
 
+  # views for main pages
+  # auth for login/register
+  # admin for admin dashboard
   from .views import views
   from .auth import auth 
   from .admin import admin
